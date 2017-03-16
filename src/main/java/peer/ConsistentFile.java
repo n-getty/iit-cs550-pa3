@@ -1,16 +1,22 @@
 package main.java.peer;
 
-public class ConsistentFile{
+public class ConsistentFile {
     int version;
     String originID;
     byte[] file;
     ConsistencyState state;
-    
-    public ConsistentFile(int version, String originID, byte[] file, ConsistencyState state){
+
+    public ConsistentFile(){
+        version = 0;
+        originID = "";
+        file = "x".getBytes();
+    }
+
+    public ConsistentFile(int version, String originID, byte[] file) {
         this.version = version;
         this.originID = originID;
         this.file = file;
-        this.state = state;
+        state = ConsistencyState.VALID;
     }
 
     public int getVersion() {
@@ -40,4 +46,9 @@ public class ConsistentFile{
     public ConsistencyState getState() {
         return state;
     }
+
+    public void setState(ConsistencyState state) {
+        this.state = state;
+    }
+
 }

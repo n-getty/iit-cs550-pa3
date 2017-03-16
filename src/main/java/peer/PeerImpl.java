@@ -19,20 +19,23 @@ public class PeerImpl implements PeerInt {
     private static final int MAX_ENTRIES = 100;
     String folder;
     Set<String> fileIndex;
-    LinkedHashMap<Pair<String, Integer>, String> upstreamMap;
+    HashMap<Pair<String, Integer>, String> upstreamMap;
+    HashMap<Pair<String, Integer>, Integer> invalidateMap;
+    Map<String, ConsistentFile> fileMap;
     String thisIP;
-    int thisPort;
     String[] neighbors;
+    int defaultTTR;
 
     /**
      * Constructor for exporting each peer to the registry
      */
-    public PeerImpl(String folder, String[] neighbors, Set<String> fileIndex, String id) {
+    public PeerImpl(String folder, String[] neighbors, Set<String> fileIndex, String id, int defaultTTR) {
         try {
             this.folder = folder;
             thisIP = id;
             this.neighbors = neighbors;
             this.fileIndex = fileIndex;
+            this.defaultTTR = defaultTTR;
             //upstreamMap = new HashMap<Pair<String, Integer>, String>();
             upstreamMap = new LinkedHashMap<Pair<String, Integer>, String>(MAX_ENTRIES + 1, .75F, false){
 
@@ -40,6 +43,13 @@ public class PeerImpl implements PeerInt {
                     return size() > MAX_ENTRIES;
                 }
             };
+            invalidateMap = new LinkedHashMap<Pair<String, Integer>, Integer>(MAX_ENTRIES + 1, .75F, false){
+
+                protected boolean removeEldestEntry(Map.Entry eldest) {
+                    return size() > MAX_ENTRIES;
+                }
+            };
+            fileMap = new HashMap();
             PeerInt stub = (PeerInt) UnicastRemoteObject.exportObject(this, 0);
             // Bind the remote object's stub in the registry
             Registry registry = LocateRegistry.getRegistry();
@@ -54,17 +64,18 @@ public class PeerImpl implements PeerInt {
     /**
      * Pass chunks of the file to the clients remote peer object until the file is written
      */
-    public byte[] obtain(String fileName)
+    public ConsistentFile obtain(String fileName)
 	throws IOException {
 
         try {
             byte[] requestedFile = Files.readAllBytes(Paths.get(folder+"/"+fileName));
-            return requestedFile;
+
+            return new ConsistentFile(fileMap.get(fileName).getVersion(), thisIP, requestedFile);
         }
         catch(Exception e) {
             e.printStackTrace();
         }
-        byte[] x = "x".getBytes();
+        ConsistentFile x = new ConsistentFile();
         return x;
     }
 
@@ -106,7 +117,9 @@ public class PeerImpl implements PeerInt {
                     Registry registry = LocateRegistry.getRegistry(peerIP, portNumber);
                     PeerInt peerStub = (PeerInt) registry.lookup("PeerInt");
                     fileIndex.add(fileName);
-                    byte[] requestedFile = peerStub.obtain(fileName);
+                    ConsistentFile cf = peerStub.obtain(fileName);
+                    byte[] requestedFile = cf.getFile();
+                    fileMap.put(fileName, cf);
                     writeFile(requestedFile, fileName);
                 }
             }
@@ -156,4 +169,41 @@ public class PeerImpl implements PeerInt {
             System.out.println("Exception" + e);
         }
     }
+
+    public void invalidate(Pair<String, Integer> messageID, String fileName, int version)throws RemoteException{
+        if(!invalidateMap.containsKey(messageID) || invalidateMap.get(messageID) != version){
+            invalidateMap.put(messageID, version);
+            if (fileMap.containsKey(fileName)){
+                fileMap.get(fileName).setState(ConsistencyState.INVALID);
+            }
+        }
+        invalidateNeighbors(messageID, fileName,version);
+    }
+
+    public void invalidateNeighbors(Pair<String, Integer> messageID, String fileName, int version){
+        try {
+            for (String neighbor : neighbors) {
+                //System.out.println("neighbor found: " + neighbor);
+                Registry registry = LocateRegistry.getRegistry(neighbor,1099);
+                //System.out.println("locate registry succeeded " + registry);
+                PeerInt peerStub = (PeerInt) registry.lookup("PeerInt");
+                //System.out.println("registry lookup " + peerStub);
+                peerStub. invalidate(messageID,fileName,version);
+                //System.out.println("query succedded");
+            }
+        } catch (Exception e) {
+            System.err.println("Client exception: " + e.toString());
+            e.printStackTrace();
+        }
+    }
+
+    public int poll(String fileName, int version)throws RemoteException{
+        if (fileMap.get(fileName).getVersion() != version){
+            return 0;
+        }
+        else{
+            return defaultTTR;
+        }
+    }
+
 }
