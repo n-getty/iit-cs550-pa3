@@ -2,6 +2,8 @@ package main.java.peer;
 
 import javafx.util.Pair;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.nio.file.Files;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
@@ -11,6 +13,7 @@ import java.rmi.RemoteException;
 import java.io.*;
 import java.nio.file.Paths;
 import java.util.*;
+import javax.swing.Timer;
 
 /**
  * Server part of the Peer
@@ -22,14 +25,16 @@ public class PeerImpl implements PeerInt {
     HashMap<Pair<String, Integer>, String> upstreamMap;
     HashMap<Pair<String, Integer>, Integer> invalidateMap;
     Map<String, ConsistentFile> fileMap;
+    Map<String, Timer> timerMap;
     String thisIP;
     String[] neighbors;
     int defaultTTR;
+    String mode;
 
     /**
      * Constructor for exporting each peer to the registry
      */
-    public PeerImpl(String folder, String[] neighbors, Set<String> fileIndex, String id, int defaultTTR) {
+    public PeerImpl(String folder, String[] neighbors, Set<String> fileIndex, String id, int defaultTTR, String mode) {
         try {
             this.folder = folder;
             thisIP = id;
@@ -50,6 +55,8 @@ public class PeerImpl implements PeerInt {
                 }
             };
             fileMap = new HashMap();
+            timerMap = new HashMap();
+            this.mode = mode;
             PeerInt stub = (PeerInt) UnicastRemoteObject.exportObject(this, 0);
             // Bind the remote object's stub in the registry
             Registry registry = LocateRegistry.getRegistry();
@@ -69,8 +76,16 @@ public class PeerImpl implements PeerInt {
 
         try {
             byte[] requestedFile = Files.readAllBytes(Paths.get(folder+"/"+fileName));
-
-            return new ConsistentFile(fileMap.get(fileName).getVersion(), thisIP, requestedFile);
+            ConsistentFile cf = fileMap.get(fileName);
+            int TTR = 0;
+            if(mode.equals("pull")) {
+                if (thisIP.equals(cf.getOriginID())) {
+                    TTR = defaultTTR;
+                } else {
+                    TTR = timerMap.get(fileName).getDelay();
+                }
+            }
+            return new ConsistentFile(cf.getVersion(), thisIP, requestedFile, TTR);
         }
         catch(Exception e) {
             e.printStackTrace();
@@ -85,11 +100,10 @@ public class PeerImpl implements PeerInt {
     public void query (Pair<String, Integer> messageID, int TTL, String fileName)
             throws RemoteException {
 	try {
-            String upstreamIP = RemoteServer.getClientHost();
-            if(!upstreamMap.containsKey(messageID) && TTL >= 0) {
-                upstreamMap.put(messageID, upstreamIP);
-
-		if (fileIndex.contains(fileName)) {
+        String upstreamIP = RemoteServer.getClientHost();
+        if(!upstreamMap.containsKey(messageID) && TTL >= 0) {
+            upstreamMap.put(messageID, upstreamIP);
+		    if (fileIndex.contains(fileName) && fileMap.get(fileName).getState().equals(ConsistencyState.VALID)) {
                     queryhit(messageID, fileName, thisIP, 1099);
                 }
                 if(TTL > 0)
@@ -110,10 +124,9 @@ public class PeerImpl implements PeerInt {
         try {
             if(messageID.getKey().equals(thisIP)){
                 //Insert Time Stamp Log Here
-		time=System.nanoTime();
-		System.out.println("LOGGING: Receiving query: " + fileName + " " + time);
-
-		if(!fileIndex.contains(fileName)) {
+		        time=System.nanoTime();
+		        System.out.println("LOGGING: Receiving query: " + fileName + " " + time);
+		        if(!fileIndex.contains(fileName)) {
                     Registry registry = LocateRegistry.getRegistry(peerIP, portNumber);
                     PeerInt peerStub = (PeerInt) registry.lookup("PeerInt");
                     fileIndex.add(fileName);
@@ -121,6 +134,24 @@ public class PeerImpl implements PeerInt {
                     byte[] requestedFile = cf.getFile();
                     fileMap.put(fileName, cf);
                     writeFile(requestedFile, fileName);
+                    class ExpireActionListener implements ActionListener {
+                        String fileName;
+
+                        public ExpireActionListener(String fn) {
+                            this.fileName = fn;
+                        }
+
+                        public void actionPerformed(ActionEvent e) {
+                            fileMap.get(fileName).setState(ConsistencyState.EXPIRED);
+                        }
+                    }
+                    if(mode.equals("pull")) {
+                        int delay = cf.getInitialTTR();
+                        ActionListener actionListener = new ExpireActionListener(fileName);
+                        Timer t = new Timer(delay, actionListener);
+                        t.start();
+                        timerMap.put(fileName, t);
+                    }
                 }
             }
             else {
@@ -203,6 +234,24 @@ public class PeerImpl implements PeerInt {
         }
         else{
             return defaultTTR;
+        }
+    }
+
+    public void refresh(String fileName){
+        try {
+            if (!fileMap.get(fileName).getState().equals(ConsistencyState.VALID)) {
+                Registry registry = LocateRegistry.getRegistry(fileMap.get(fileName).getOriginID(), 1099);
+                PeerInt peerStub = (PeerInt) registry.lookup("PeerInt");
+                fileIndex.add(fileName);
+                ConsistentFile cf = peerStub.obtain(fileName);
+                byte[] requestedFile = cf.getFile();
+                fileMap.put(fileName, cf);
+                writeFile(requestedFile, fileName);
+            }
+        }
+        catch (Exception e) {
+            System.err.println("Client exception: " + e.toString());
+            e.printStackTrace();
         }
     }
 

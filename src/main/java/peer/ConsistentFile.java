@@ -6,16 +6,19 @@ public class ConsistentFile {
     byte[] file;
     ConsistencyState state;
 
+    int initialTTR;
+
     public ConsistentFile(){
         version = 0;
         originID = "";
         file = "x".getBytes();
     }
 
-    public ConsistentFile(int version, String originID, byte[] file) {
+    public ConsistentFile(int version, String originID, byte[] file, int TTR) {
         this.version = version;
         this.originID = originID;
         this.file = file;
+        initialTTR = TTR;
         state = ConsistencyState.VALID;
     }
 
@@ -49,6 +52,14 @@ public class ConsistentFile {
 
     public void setState(ConsistencyState state) {
         this.state = state;
+    }
+
+    public int getInitialTTR() {
+        return initialTTR;
+    }
+
+    public void setInitialTTR(int initialTTR) {
+        this.initialTTR = initialTTR;
     }
 
 }

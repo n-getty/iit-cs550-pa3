@@ -19,10 +19,10 @@ public class Client {
     PeerImpl peerServ;
     int sequenceNum = 0;
 
-    public Client(String folder, String id, String topology) {
+    public Client(String folder, String id, String topology, int TTR, String mode) {
 	try {
 	    this.id = id;
-        peerServ = new PeerImpl(folder, getNeighbors(topology), getFileIndex(folder), id);
+        peerServ = new PeerImpl(folder, getNeighbors(topology), getFileIndex(folder), id, TTR, mode);
 	} catch (Exception e) {
             System.err.println("Client exception: " + e.toString());
             e.printStackTrace();
@@ -98,5 +98,9 @@ public class Client {
             System.err.println("Client exception: " + e.toString());
             e.printStackTrace();
         }
+    }
+
+    public void refresh(String fileName){
+        peerServ.refresh(fileName);
     }
 }

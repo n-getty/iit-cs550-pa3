@@ -21,19 +21,21 @@ public class ClientDriver {
         /*  create new client object
          *  args[0] is the directory of the files to download to
          *  args[1] is the topology for the neighbors
-         *  args[2] is the consistency method (push or pull)
+         *  ars[2] is the default TTR
+         *  args[3] is the consistency method (push or pull)
          */
 
         String folder = args[0];
         String topology = args[1];
-	    String cMethod = args[2];
+        int TTR = Integer.parseInt(args[2]);
+	    String mode = args[3];
 
         // String id = getIP();
 	    String id = args[2];
         System.setProperty("java.rmi.server.hostname", id);
 
 	    System.out.println("INFO: Initializing Peer..." + folder + " " + id + " " + topology);
-	    Client peerClient = new Client(folder, id, topology);
+	    Client peerClient = new Client(folder, id, topology, TTR, mode);
         Path dir = Paths.get(folder);
         new WatchDir(dir, false).processEvents(peerClient);
         System.out.println("INFO: Client Process initialized...");
@@ -49,15 +51,23 @@ public class ClientDriver {
 
         while (true) {
             System.out.println("\nInput name of file you want to obtain:\n");
+            System.out.println("\nAppend -r to refresh this file\n");
             query = input.nextLine();
             if (query.equals("exit")) {
                 System.out.println("\nALERT: Process exiting... \n Goodbye.");
                 System.exit(0);
             }
-	    time=System.nanoTime();
-	    System.out.println("LOGGING: Requesting file: " + query + " " + time);
-	    peerClient.retrieve(query);
-	    System.out.println("LOGGING: Requested file");
+	        time=System.nanoTime();
+            if (query.substring(query.length()-2).equals("-r")){
+                System.out.println("LOGGING: Refreshing file: " + query + " " + time);
+                peerClient.refresh(query);
+                System.out.println("LOGGING: Refreshing file");
+            }
+            else{
+                System.out.println("LOGGING: Requesting file: " + query + " " + time);
+                peerClient.retrieve(query);
+                System.out.println("LOGGING: Requested file");
+            }
         }
     }
     /*
