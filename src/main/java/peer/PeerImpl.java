@@ -103,8 +103,13 @@ public class PeerImpl implements PeerInt {
         String upstreamIP = RemoteServer.getClientHost();
         if(!upstreamMap.containsKey(messageID) && TTL >= 0) {
             upstreamMap.put(messageID, upstreamIP);
-		    if (fileIndex.contains(fileName) && fileMap.get(fileName).getState().equals(ConsistencyState.VALID)) {
-                    queryhit(messageID, fileName, thisIP, 1099);
+		    if (fileIndex.contains(fileName)) {
+		            if(fileMap.get(fileName).getState().equals(ConsistencyState.VALID)) {
+                        queryhit(messageID, fileName, thisIP, 1099);
+                    }
+                    else if(mode.equals("push")){
+                        System.out.println("Peer: " + thisIP + " has an invalid version of file : " + fileName + " and will not share with " + messageID.getKey());
+                        }
                 }
                 if(TTL > 0)
                     queryNeighbors(fileName, TTL - 1, messageID);
@@ -135,15 +140,13 @@ public class PeerImpl implements PeerInt {
                     fileMap.put(fileName, cf);
                     writeFile(requestedFile, fileName);
                     class ExpireActionListener implements ActionListener {
-                        String fileName;
+                        private String fileName;
 
-                        public ExpireActionListener(String fn) {
-                            this.fileName = fn;
-                        }
+                        public ExpireActionListener(String fn) {fileName = fn;}
 
                         public void actionPerformed(ActionEvent e) {
                             fileMap.get(fileName).setState(ConsistencyState.EXPIRED);
-                        }
+                            System.out.println("File: " + fileName + " has expired");}
                     }
                     if(mode.equals("pull")) {
                         int delay = cf.getInitialTTR();
@@ -191,7 +194,7 @@ public class PeerImpl implements PeerInt {
      */
     public void writeFile(byte[] x, String fileName){
         try {
-            System.out.println("LOGGING: Received File " + folder + "/" + fileName);
+            System.out.println("LOGGING: Received File " + folder + "/peer/" + fileName);
             FileOutputStream out = new FileOutputStream(new File(folder + "/" + fileName));
             out.write(x);
             out.close();
@@ -239,20 +242,28 @@ public class PeerImpl implements PeerInt {
 
     public void refresh(String fileName){
         try {
-            if (!fileMap.get(fileName).getState().equals(ConsistencyState.VALID)) {
-                Registry registry = LocateRegistry.getRegistry(fileMap.get(fileName).getOriginID(), 1099);
+                ConsistentFile cf = fileMap.get(fileName);
+                Registry registry = LocateRegistry.getRegistry(cf.getOriginID(), 1099);
                 PeerInt peerStub = (PeerInt) registry.lookup("PeerInt");
-                fileIndex.add(fileName);
-                ConsistentFile cf = peerStub.obtain(fileName);
-                byte[] requestedFile = cf.getFile();
-                fileMap.put(fileName, cf);
-                writeFile(requestedFile, fileName);
+                if(peerStub.poll(fileName, cf.getVersion()) != 0) {
+                    cf = peerStub.obtain(fileName);
+                    byte[] requestedFile = cf.getFile();
+                    fileMap.put(fileName, cf);
+                    writeFile(requestedFile, fileName);
+                    System.out.println("File: " + fileName + " has been refreshed");
+                }
+                else{
+                    System.out.println("File: " + fileName + " is currently up to date");
+                }
             }
-        }
         catch (Exception e) {
             System.err.println("Client exception: " + e.toString());
             e.printStackTrace();
         }
+    }
+
+    public void pseudoUpdate(){
+
     }
 
 }

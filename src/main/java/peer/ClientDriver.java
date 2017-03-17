@@ -19,23 +19,25 @@ public class ClientDriver {
     public static void main(String[] args)
             throws IOException {
         /*  create new client object
-         *  args[0] is the directory of the files to download to
+         *  args[0] is the directory of the files to download to (assumed two folders
          *  args[1] is the topology for the neighbors
-         *  ars[2] is the default TTR
+         *  ars[2] is the default TTR in ms
          *  args[3] is the consistency method (push or pull)
+         *  args[4] is the TTL
          */
 
         String folder = args[0];
         String topology = args[1];
         int TTR = Integer.parseInt(args[2]);
 	    String mode = args[3];
+	    int TTL = Integer.parseInt(args[4]);
 
         // String id = getIP();
 	    String id = args[2];
         System.setProperty("java.rmi.server.hostname", id);
 
 	    System.out.println("INFO: Initializing Peer..." + folder + " " + id + " " + topology);
-	    Client peerClient = new Client(folder, id, topology, TTR, mode);
+	    Client peerClient = new Client(folder, id, topology, TTR, mode, TTL);
         Path dir = Paths.get(folder);
         new WatchDir(dir, false).processEvents(peerClient);
         System.out.println("INFO: Client Process initialized...");

@@ -19,9 +19,10 @@ public class Client {
     PeerImpl peerServ;
     int sequenceNum = 0;
 
-    public Client(String folder, String id, String topology, int TTR, String mode) {
+    public Client(String folder, String id, String topology, int TTR, String mode, int TTL) {
 	try {
 	    this.id = id;
+	    maxTTL = TTL;
         peerServ = new PeerImpl(folder, getNeighbors(topology), getFileIndex(folder), id, TTR, mode);
 	} catch (Exception e) {
             System.err.println("Client exception: " + e.toString());
@@ -57,7 +58,7 @@ public class Client {
         // currently we only support files inside of folders (i.e. no folders inside folders)
 
         // read in files from given folder
-        File fold = new File("./"+folder);
+        File fold = new File("./"+folder+"/origin");
         File[] listOfFiles = fold.listFiles();
 
         // convert list of files into ArrayList of strings
