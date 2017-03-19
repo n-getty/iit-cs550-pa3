@@ -22,6 +22,7 @@ public class PeerImpl implements PeerInt {
     private static final int MAX_ENTRIES = 100;
     String folder;
     Set<String> fileIndex;
+    List<String> originIndex;
     HashMap<Pair<String, Integer>, String> upstreamMap;
     HashMap<Pair<String, Integer>, Integer> invalidateMap;
     Map<String, ConsistentFile> fileMap;
@@ -30,7 +31,7 @@ public class PeerImpl implements PeerInt {
     String[] neighbors;
     int defaultTTR;
     String mode;
-
+    Timer updateTimer;
     /**
      * Constructor for exporting each peer to the registry
      */
@@ -40,6 +41,7 @@ public class PeerImpl implements PeerInt {
             thisIP = id;
             this.neighbors = neighbors;
             this.fileIndex = fileIndex;
+            originIndex = new ArrayList(fileIndex);
             this.defaultTTR = defaultTTR;
             //upstreamMap = new HashMap<Pair<String, Integer>, String>();
             upstreamMap = new LinkedHashMap<Pair<String, Integer>, String>(MAX_ENTRIES + 1, .75F, false){
@@ -204,17 +206,19 @@ public class PeerImpl implements PeerInt {
         }
     }
 
-    public void invalidate(Pair<String, Integer> messageID, String fileName, int version)throws RemoteException{
+    public void invalidate(Pair<String, Integer> messageID)throws RemoteException{
+        String fileName = messageID.getKey();
+        int version = messageID.getValue();
         if(!invalidateMap.containsKey(messageID) || invalidateMap.get(messageID) != version){
             invalidateMap.put(messageID, version);
             if (fileMap.containsKey(fileName)){
                 fileMap.get(fileName).setState(ConsistencyState.INVALID);
             }
         }
-        invalidateNeighbors(messageID, fileName,version);
+        invalidateNeighbors(messageID);
     }
 
-    public void invalidateNeighbors(Pair<String, Integer> messageID, String fileName, int version){
+    public void invalidateNeighbors(Pair<String, Integer> messageID){
         try {
             for (String neighbor : neighbors) {
                 //System.out.println("neighbor found: " + neighbor);
@@ -222,7 +226,7 @@ public class PeerImpl implements PeerInt {
                 //System.out.println("locate registry succeeded " + registry);
                 PeerInt peerStub = (PeerInt) registry.lookup("PeerInt");
                 //System.out.println("registry lookup " + peerStub);
-                peerStub. invalidate(messageID,fileName,version);
+                peerStub.invalidate(messageID);
                 //System.out.println("query succedded");
             }
         } catch (Exception e) {
@@ -250,6 +254,7 @@ public class PeerImpl implements PeerInt {
                     byte[] requestedFile = cf.getFile();
                     fileMap.put(fileName, cf);
                     writeFile(requestedFile, fileName);
+                    timerMap.get(fileName).restart();
                     System.out.println("File: " + fileName + " has been refreshed");
                 }
                 else{
@@ -263,7 +268,37 @@ public class PeerImpl implements PeerInt {
     }
 
     public void pseudoUpdate(){
+        class ExpireActionListener implements ActionListener {
+            private String fileName;
 
+            public ExpireActionListener(String fn) {fileName = fn;}
+            public void actionPerformed(ActionEvent e) {
+                ConsistentFile cf = fileMap.get(fileName);
+                cf.setVersion(cf.getVersion() +  1);
+                if(mode.equals("push")) {
+                    invalidateNeighbors(new Pair(fileName, cf.getVersion()));
+                    Collections.shuffle(originIndex);
+                    fileName = originIndex.get(0);
+                    System.out.println(fileName + " has been updated");
+                    int delay = (int)nextExponentialDelay(5.0 * 1000.0);
+                    System.out.println("Next pseudoupdate will be in " + delay + " milliseconds");
+                    updateTimer = new Timer(delay, this);
+                    updateTimer.setRepeats(false);
+                    updateTimer.start();
+                }
+            }
+
+        }
+
+        int delay = (int)nextExponentialDelay(5.0 * 1000.0);
+        ActionListener actionListener = new ExpireActionListener(originIndex.get(0));
+        updateTimer = new Timer(delay, actionListener);
+        updateTimer.setRepeats(false);
+        updateTimer.start();
+    }
+
+    public double nextExponentialDelay(double L) {
+        return Math.log(1.0-Math.random())/(1/-L);
     }
 
 }
