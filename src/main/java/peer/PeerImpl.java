@@ -32,6 +32,7 @@ public class PeerImpl implements PeerInt {
     int defaultTTR;
     String mode;
     Timer updateTimer;
+    
     /**
      * Constructor for exporting each peer to the registry
      */
@@ -206,6 +207,9 @@ public class PeerImpl implements PeerInt {
         }
     }
 
+    /**
+     * If this peer has the file, mark it as invalid
+     */
     public void invalidate(Pair<String, Integer> messageID)throws RemoteException{
         String fileName = messageID.getKey();
         int version = messageID.getValue();
@@ -218,6 +222,9 @@ public class PeerImpl implements PeerInt {
         invalidateNeighbors(messageID);
     }
 
+    /**
+     * Propagate invalidate message to neighbors
+     */
     public void invalidateNeighbors(Pair<String, Integer> messageID){
         try {
             for (String neighbor : neighbors) {
@@ -235,6 +242,9 @@ public class PeerImpl implements PeerInt {
         }
     }
 
+    /**
+     * Server returns to client 0 if their version is out of date or the new TTR
+     */
     public int poll(String fileName, int version)throws RemoteException{
         if (fileMap.get(fileName).getVersion() != version){
             return 0;
@@ -244,6 +254,9 @@ public class PeerImpl implements PeerInt {
         }
     }
 
+    /**
+     * Check if file is out of date and then retrieve it if so
+     */
     public void refresh(String fileName){
         try {
                 ConsistentFile cf = fileMap.get(fileName);
@@ -267,6 +280,9 @@ public class PeerImpl implements PeerInt {
         }
     }
 
+    /**
+     * Increase a random files version number with an interval exponentially distributed
+     */
     public void pseudoUpdate(){
         class ExpireActionListener implements ActionListener {
             private String fileName;
