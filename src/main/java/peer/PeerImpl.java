@@ -112,7 +112,7 @@ public class PeerImpl implements PeerInt {
 		            if(fileMap.get(fileName).getState().equals(ConsistencyState.VALID)) {
                         queryhit(messageID, fileName, thisIP, 1099);
                     }
-                    else if(mode.equals("push")){
+                    else if(fileMap.get(fileName).getState().equals(ConsistencyState.INVALID){
                         System.out.println("Peer: " + thisIP + " has an invalid version of file : " + fileName + " and will not share with " + messageID.getKey());
                         }
                 }
@@ -157,6 +157,7 @@ public class PeerImpl implements PeerInt {
                         int delay = cf.getInitialTTR();
                         ActionListener actionListener = new ExpireActionListener(fileName);
                         Timer t = new Timer(delay, actionListener);
+                        t.setRepeats(false);
                         t.start();
                         timerMap.put(fileName, t);
                     }
