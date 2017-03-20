@@ -59,6 +59,7 @@ public class PeerImpl implements PeerInt {
             };
             fileMap = new HashMap();
             timerMap = new HashMap();
+            populateFileMap();
             this.mode = mode;
             PeerInt stub = (PeerInt) UnicastRemoteObject.exportObject(this, 0);
             // Bind the remote object's stub in the registry
@@ -78,7 +79,7 @@ public class PeerImpl implements PeerInt {
 	throws IOException {
 
         try {
-            byte[] requestedFile = Files.readAllBytes(Paths.get(folder+"/"+fileName));
+            //byte[] requestedFile = Files.readAllBytes(Paths.get(folder+"/"+fileName));
             ConsistentFile cf = fileMap.get(fileName);
             int TTR = 0;
             if(mode.equals("pull")) {
@@ -88,8 +89,8 @@ public class PeerImpl implements PeerInt {
                     TTR = timerMap.get(fileName).getDelay();
                 }
             }
-            return new ConsistentFile(cf.getVersion(), thisIP, requestedFile, TTR);
         }
+        return cf;
         catch(Exception e) {
             e.printStackTrace();
         }
@@ -317,4 +318,10 @@ public class PeerImpl implements PeerInt {
         return Math.log(1.0-Math.random())/(1/-L);
     }
 
+    public void populateFileMap(){
+        for (String file : fileIndex){
+            byte[] ba= Files.readAllBytes(Paths.get(folder+"/"+fileName));
+            fileMap.put(file, new ConsistentFile(0, thisIP, ba, defaultTTR))
+        }
+    }
 }
