@@ -1,0 +1,68 @@
+####################
+# Java Source code #
+####################
+
+./src/main/java/peer/
+  Client.java
+  ClientDriver.java
+  PeerInt.java
+  PeerImpl.java
+  WatchDir.java
+
+#################
+# Documentation #
+#################
+
+./
+  programlist.txt
+	(This File)
+./src/docs/
+  manual/
+    index.html
+	Main file to read the docs. Open with browser
+    allclasses-frame.html
+    allclasses-noframe.html
+    constant-values.html
+    deprecated-list.html
+    help-doc.html
+    index-all.html
+    overview-tree.html
+    package-list
+    script.js
+    stylesheet.css
+  design/
+    design.pdf
+	project writeup
+  test/
+    output.txt
+	sample output file from star topology
+    test.pdf
+	explaination for running experiments with verification
+
+######################
+# Setup & Evaluation #
+######################
+
+./src/
+  Makefile
+	Usage: sudo make (clean)
+	Compiles the program and generates the manual from source code
+  experiment.py
+	Python script to run the evaluation on the peer -> peer file sharing
+  parse.pl
+	Generates the response times from the log file
+  plot.py
+	Generates cdf plots from the raw response times
+  setupTestFiles.sh
+	Generates the test files, input files, and output files for the experiment.
+	Output files and input files are located in ./topologies/topo/
+		
+	Usage: ./setupTestFiles.sh arg1 arg2 arg3 arg4
+	arg1 - number of hosts
+	arg2 - overlap factor (ratio of number of copies to total hosts)
+	       how many locations a file is replicated in
+	arg3 - number of test files to generate, each file is 1kb*filenumber
+	arg4 - number of consecutive downloaders
+
+
+

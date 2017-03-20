@@ -24,6 +24,7 @@ public class Client {
 	    this.id = id;
 	    maxTTL = TTL;
         peerServ = new PeerImpl(folder, getNeighbors(topology), getFileIndex(folder), id, TTR, mode);
+	peerServ.pseudoUpdate();
 	} catch (Exception e) {
             System.err.println("Client exception: " + e.toString());
             e.printStackTrace();

@@ -24,7 +24,8 @@ public class ClientDriver {
          *  ars[2] is the default TTR in ms
          *  args[3] is the consistency method (push or pull)
          *  args[4] is the TTL
-         */
+	 *  args[5] is the IP address
+	 */
 
         String folder = args[0];
         String topology = args[1];
@@ -33,7 +34,7 @@ public class ClientDriver {
 	    int TTL = Integer.parseInt(args[4]);
 
         // String id = getIP();
-	    String id = args[2];
+	    String id = args[5];
         System.setProperty("java.rmi.server.hostname", id);
 
 	    System.out.println("INFO: Initializing Peer..." + folder + " " + id + " " + topology);
