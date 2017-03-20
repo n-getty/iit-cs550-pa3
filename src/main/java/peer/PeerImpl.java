@@ -89,8 +89,9 @@ public class PeerImpl implements PeerInt {
                     TTR = timerMap.get(fileName).getDelay();
                 }
             }
-        }
-        return cf;
+        
+	    return cf;
+	}
         catch(Exception e) {
             e.printStackTrace();
         }
@@ -320,8 +321,15 @@ public class PeerImpl implements PeerInt {
 
     public void populateFileMap(){
         for (String file : fileIndex){
-            byte[] ba= Files.readAllBytes(Paths.get(folder+"/"+fileName));
-            fileMap.put(file, new ConsistentFile(0, thisIP, ba, defaultTTR))
+	    try {
+		byte[] ba= Files.readAllBytes(Paths.get(folder+"/origin/"+file));
+		fileMap.put(file, new ConsistentFile(0, thisIP, ba, defaultTTR));
+
+	    }
+	    catch (Exception e) {
+		System.err.println("PeerImpl exception: " + e.toString());
+		e.printStackTrace();
+	    }
         }
     }
 }

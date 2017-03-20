@@ -47,3 +47,7 @@ for fold in `seq 1 $1`; do
 	echo file_$(printf %03d "$f").bin >> ../topologies/topo/input_$(printf "$fold").txt
     done
 done
+
+for uu in `seq 1 9`; do
+    echo exit  >> ../topologies/topo/input_$(printf "$fold").txt
+done 

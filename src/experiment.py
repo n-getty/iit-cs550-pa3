@@ -54,6 +54,7 @@ def simpleTest():
     # Begin custom cmds #
     ##                 ##
     ttr = '3000'
+    ttl = '1'
     ttl = '2'
     for x in range(1,number_of_hosts+1):
         net.get('h%s'%x).cmd('rmiregistry &')

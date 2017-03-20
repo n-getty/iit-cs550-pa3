@@ -1,6 +1,7 @@
 package main.java.peer;
-
-public class ConsistentFile {
+import java.io.Serializable;
+    
+public class ConsistentFile implements Serializable {
     int version;
     String originID;
     byte[] file;

@@ -37,14 +37,22 @@ public class ClientDriver {
 	    String id = args[5];
         System.setProperty("java.rmi.server.hostname", id);
 
-	    System.out.println("INFO: Initializing Peer..." + folder + " " + id + " " + topology);
-	    Client peerClient = new Client(folder, id, topology, TTR, mode, TTL);
+	
+	System.out.println("INFO: Initializing Peer..." + folder + " " + id + " " + topology);
+	Client peerClient = new Client(folder, id, topology, TTR, mode, TTL);
         Path dir = Paths.get(folder);
-        new WatchDir(dir, false).processEvents(peerClient);
+	//System.out.println("INFO: STARTIONG WATCHDOG");
+        //new WatchDir(dir, false).processEvents(peerClient);
         System.out.println("INFO: Client Process initialized...");
 
         System.out.println("INFO: Indexing Files in: ./" + folder + "/");
 
+	try {
+	    Thread.sleep(1000);
+	} catch(InterruptedException ex) {
+	    Thread.currentThread().interrupt();
+	}
+	
         Scanner input = new Scanner(System.in);
         System.out.println("\nInput 'exit' to close the application at anytime");
         String query;
@@ -57,8 +65,13 @@ public class ClientDriver {
             System.out.println("\nAppend -r to refresh this file\n");
             query = input.nextLine();
             if (query.equals("exit")) {
-                System.out.println("\nALERT: Process exiting... \n Goodbye.");
-                System.exit(0);
+                System.out.println("\nALERT: Process exiting in 10 sec... \n Goodbye.");
+		try {
+		    Thread.sleep(100000);
+		} catch(InterruptedException ex) {
+		    Thread.currentThread().interrupt();
+		}
+		System.exit(0);
             }
 	        time=System.nanoTime();
             if (query.substring(query.length()-2).equals("-r")){
