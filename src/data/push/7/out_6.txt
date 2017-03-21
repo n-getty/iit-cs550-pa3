@@ -1,0 +1,1372 @@
+INFO: Initializing Peer..../tests/test6 10.0.0.6 star
+PeerImpl ready
+INFO: Client Process initialized...
+INFO: Indexing Files in: ././tests/test6/
+
+Input 'exit' to close the application at anytime
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_055.bin 2440295929765569
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: Receiving query: file_055.bin 2440295945267163
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_036.bin 2440295947427902
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_090.bin 2440295951527476
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_018.bin 2440295957670265
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_063.bin 2440295965849177
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_024.bin 2440295975651817
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_069.bin 2440295978180940
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_046.bin 2440295986912065
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_053.bin 2440295995778566
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: Receiving query: file_053.bin 2440295997541942
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_057.bin 2440295999057792
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: Receiving query: file_057.bin 2440296001072428
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_077.bin 2440296002382775
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_058.bin 2440296005832824
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: Receiving query: file_058.bin 2440296011549027
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_012.bin 2440296012989232
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_020.bin 2440296021352130
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_043.bin 2440296022986836
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_001.bin 2440296034590256
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_015.bin 2440296039141774
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_082.bin 2440296042761864
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_030.bin 2440296046255946
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_045.bin 2440296062694458
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_035.bin 2440296074558701
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_006.bin 2440296095938353
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_028.bin 2440296098209786
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_062.bin 2440296105336789
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_025.bin 2440296115662743
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_087.bin 2440296125168209
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_074.bin 2440296126804975
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_009.bin 2440296138509852
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_004.bin 2440296143972637
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_034.bin 2440296146554708
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_061.bin 2440296147732414
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_002.bin 2440296153682523
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_042.bin 2440296158496413
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_075.bin 2440296163366466
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_051.bin 2440296166123176
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: Receiving query: file_051.bin 2440296166834922
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_016.bin 2440296204822621
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_013.bin 2440296206701829
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_014.bin 2440296214691372
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_005.bin 2440296229310906
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_076.bin 2440296243223144
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_049.bin 2440296245689241
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_065.bin 2440296253924936
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_039.bin 2440296269787569
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_026.bin 2440296286758502
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_054.bin 2440296291378812
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: Receiving query: file_054.bin 2440296292575213
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_089.bin 2440296294769881
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_056.bin 2440296298876421
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: Receiving query: file_056.bin 2440296307961828
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_027.bin 2440296313958748
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_073.bin 2440296325859781
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_066.bin 2440296327640516
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_031.bin 2440296332711970
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_033.bin 2440296342490455
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_044.bin 2440296349211538
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_060.bin 2440296365048443
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: Receiving query: file_060.bin 2440296366266587
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_068.bin 2440296370964267
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_086.bin 2440296378594500
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_038.bin 2440296380952085
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_080.bin 2440296382443595
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_084.bin 2440296383460919
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_003.bin 2440296387092896
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_070.bin 2440296391926799
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_032.bin 2440296393953113
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_081.bin 2440296395957232
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_011.bin 2440296411154032
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_029.bin 2440296436826569
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_083.bin 2440296439707390
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_048.bin 2440296441758111
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_071.bin 2440296445605956
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_088.bin 2440296447914376
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_007.bin 2440296451150093
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_040.bin 2440296476991821
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_008.bin 2440296504734899
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_041.bin 2440296511996120
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_059.bin 2440296516751370
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: Receiving query: file_059.bin 2440296518403051
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_072.bin 2440296523256736
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_050.bin 2440296532837355
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_079.bin 2440296534646381
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_019.bin 2440296537964349
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_017.bin 2440296539053729
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_023.bin 2440296543834624
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_022.bin 2440296554291913
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_052.bin 2440296557509739
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: Receiving query: file_052.bin 2440296558626797
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_067.bin 2440296560723384
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_085.bin 2440296566011525
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_010.bin 2440296571329643
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_064.bin 2440296579778009
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_078.bin 2440296618139678
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_047.bin 2440296630661942
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_037.bin 2440296637256175
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_021.bin 2440296643427675
+id 10.0.0.6
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1540)
+	at main.java.peer.ClientDriver.main(ClientDriver.java:66)
+Mar 20, 2017 5:08:37 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=39501] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+file_055.bin has been updated
+Next pseudoupdate will be in 516 milliseconds
+Mar 20, 2017 5:08:42 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=39501] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:08:42 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=39501] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.io.EOFException
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.io.EOFException
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(DataInputStream.java:267)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+file_054.bin has been updated
+Next pseudoupdate will be in 8553 milliseconds
+Exception in thread "TimerQueue" java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at sun.awt.AWTAutoShutdown.activateBlockerThread(AWTAutoShutdown.java:347)
+	at sun.awt.AWTAutoShutdown.notifyThreadBusy(AWTAutoShutdown.java:176)
+	at java.awt.EventQueue$5.run(EventQueue.java:1079)
+	at java.awt.EventQueue$5.run(EventQueue.java:1070)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.EventQueue.initDispatchThread(EventQueue.java:1069)
+	at java.awt.EventQueue.postEventPrivate(EventQueue.java:287)
+	at java.awt.EventQueue.postEvent(EventQueue.java:262)
+	at java.awt.EventQueue.invokeLater(EventQueue.java:1266)
+	at javax.swing.SwingUtilities.invokeLater(SwingUtilities.java:1290)
+	at javax.swing.Timer$1.run(Timer.java:614)
+	at javax.swing.Timer$1.run(Timer.java:612)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.swing.Timer.post(Timer.java:612)
+	at javax.swing.TimerQueue.run(TimerQueue.java:186)
+	at java.lang.Thread.run(Thread.java:745)
+Mar 20, 2017 5:08:51 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=39501] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:08:52 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=39501] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Mar 20, 2017 5:08:54 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=39501] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.io.EOFException
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.io.EOFException
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(DataInputStream.java:267)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Mar 20, 2017 5:09:19 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=39501] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Mar 20, 2017 5:09:19 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=39501] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+OpenJDK 64-Bit Server VM warning: Exception java.lang.OutOfMemoryError occurred dispatching signal SIGHUP to handler- the VM may need to be forcibly terminated
+OpenJDK 64-Bit Server VM warning: Exception java.lang.OutOfMemoryError occurred dispatching signal SIGHUP to handler- the VM may need to be forcibly terminated

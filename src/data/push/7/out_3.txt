@@ -1,0 +1,1642 @@
+INFO: Initializing Peer..../tests/test3 10.0.0.3 star
+PeerImpl ready
+INFO: Client Process initialized...
+INFO: Indexing Files in: ././tests/test3/
+
+Input 'exit' to close the application at anytime
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_022.bin 2440296049973179
+id 10.0.0.3
+LOGGING: begining query
+LOGGING: Receiving query: file_022.bin 2440297037917760
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_013.bin 2440298790906677
+id 10.0.0.3
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_017.bin 2440300146228837
+id 10.0.0.3
+LOGGING: begining query
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_030.bin 2440301473004562
+id 10.0.0.3
+LOGGING: begining query
+LOGGING: Receiving query: file_030.bin 2440301749529218
+LOGGING: Receiving query: file_030.bin 2440302191473783
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_058.bin 2440303239021408
+id 10.0.0.3
+LOGGING: begining query
+LOGGING: Receiving query: file_058.bin 2440304792065144
+LOGGING: Received File ./tests/test3/peer/file_058.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_063.bin 2440305993738362
+id 10.0.0.3
+LOGGING: begining query
+LOGGING: Receiving query: file_063.bin 2440306287119342
+LOGGING: Received File ./tests/test3/peer/file_063.bin
+LOGGING: Receiving query: file_063.bin 2440306996864035
+LOGGING: Receiving query: file_063.bin 2440307924820566
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_069.bin 2440308393911438
+id 10.0.0.3
+LOGGING: begining query
+LOGGING: Receiving query: file_069.bin 2440309978991524
+LOGGING: Received File ./tests/test3/peer/file_069.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_078.bin 2440310951725162
+id 10.0.0.3
+LOGGING: begining query
+LOGGING: Receiving query: file_078.bin 2440311294914231
+LOGGING: Received File ./tests/test3/peer/file_078.bin
+LOGGING: Receiving query: file_078.bin 2440312116971187
+LOGGING: Receiving query: file_078.bin 2440313415071817
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_032.bin 2440313903168830
+id 10.0.0.3
+LOGGING: begining query
+LOGGING: Receiving query: file_032.bin 2440314198090303
+LOGGING: Received File ./tests/test3/peer/file_032.bin
+LOGGING: Receiving query: file_032.bin 2440314907156190
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_005.bin 2440315828565161
+id 10.0.0.3
+LOGGING: begining query
+LOGGING: Receiving query: file_005.bin 2440316635908146
+LOGGING: Received File ./tests/test3/peer/file_005.bin
+LOGGING: Receiving query: file_005.bin 2440317179883009
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_024.bin 2440318090901829
+id 10.0.0.3
+LOGGING: begining query
+LOGGING: Receiving query: file_024.bin 2440318575492988
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_049.bin 2440319587390278
+id 10.0.0.3
+LOGGING: begining query
+LOGGING: Receiving query: file_049.bin 2440320076051057
+LOGGING: Received File ./tests/test3/peer/file_049.bin
+LOGGING: Receiving query: file_049.bin 2440320667474372
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.query(Unknown Source)
+	at main.java.peer.PeerImpl.queryNeighbors(PeerImpl.java:192)
+	at main.java.peer.PeerImpl.query(PeerImpl.java:123)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Mar 20, 2017 5:08:38 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_009.bin 2440321973267486
+id 10.0.0.3
+LOGGING: begining query
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.queryhit(Unknown Source)
+	at main.java.peer.PeerImpl.queryhit(PeerImpl.java:173)
+	at main.java.peer.PeerImpl.query(PeerImpl.java:113)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Mar 20, 2017 5:08:38 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:08:38 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.query(Unknown Source)
+	at main.java.peer.PeerImpl.queryNeighbors(PeerImpl.java:192)
+	at main.java.peer.PeerImpl.query(PeerImpl.java:123)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Mar 20, 2017 5:08:38 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:08:38 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.query(Unknown Source)
+	at main.java.peer.PeerImpl.queryNeighbors(PeerImpl.java:192)
+	at main.java.peer.Client.retrieve(Client.java:97)
+	at main.java.peer.ClientDriver.main(ClientDriver.java:84)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 8 more
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_065.bin 2440322317160403
+id 10.0.0.3
+LOGGING: begining query
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.query(Unknown Source)
+	at main.java.peer.PeerImpl.queryNeighbors(PeerImpl.java:192)
+	at main.java.peer.Client.retrieve(Client.java:97)
+	at main.java.peer.ClientDriver.main(ClientDriver.java:84)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 8 more
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_047.bin 2440322733947722
+id 10.0.0.3
+LOGGING: begining query
+Mar 20, 2017 5:08:39 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.query(Unknown Source)
+	at main.java.peer.PeerImpl.queryNeighbors(PeerImpl.java:192)
+	at main.java.peer.Client.retrieve(Client.java:97)
+	at main.java.peer.ClientDriver.main(ClientDriver.java:84)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 8 more
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_066.bin 2440322962433350
+id 10.0.0.3
+LOGGING: begining query
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Mar 20, 2017 5:08:39 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:08:39 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Mar 20, 2017 5:08:40 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:08:40 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:08:40 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_071.bin 2440324687839947
+id 10.0.0.3
+LOGGING: begining query
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.query(Unknown Source)
+	at main.java.peer.PeerImpl.queryNeighbors(PeerImpl.java:192)
+	at main.java.peer.PeerImpl.query(PeerImpl.java:123)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.query(Unknown Source)
+	at main.java.peer.PeerImpl.queryNeighbors(PeerImpl.java:192)
+	at main.java.peer.Client.retrieve(Client.java:97)
+	at main.java.peer.ClientDriver.main(ClientDriver.java:84)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 8 more
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_057.bin 2440333330741186
+id 10.0.0.3
+LOGGING: begining query
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_072.bin 2440334350828404
+id 10.0.0.3
+LOGGING: begining query
+Mar 20, 2017 5:08:50 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:08:50 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:08:50 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:08:50 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:08:50 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:08:51 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:08:51 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:08:51 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_004.bin 2440335029798272
+id 10.0.0.3
+LOGGING: begining query
+Mar 20, 2017 5:08:51 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.query(Unknown Source)
+	at main.java.peer.PeerImpl.queryNeighbors(PeerImpl.java:192)
+	at main.java.peer.PeerImpl.query(PeerImpl.java:123)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Mar 20, 2017 5:08:52 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:08:52 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Mar 20, 2017 5:09:02 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:09:02 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:09:02 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:09:02 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:09:02 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:09:02 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:09:03 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+java.rmi.ServerError: Error occurred in server thread; nested exception is: 
+	java.lang.OutOfMemoryError: unable to create new native thread
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:374)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.queryhit(Unknown Source)
+	at main.java.peer.PeerImpl.queryhit(PeerImpl.java:173)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at sun.rmi.transport.DGCClient$EndpointEntry.<init>(DGCClient.java:266)
+	at sun.rmi.transport.DGCClient$EndpointEntry.lookup(DGCClient.java:237)
+	at sun.rmi.transport.DGCClient.registerRefs(DGCClient.java:155)
+	at sun.rmi.transport.ConnectionInputStream.registerRefs(ConnectionInputStream.java:94)
+	at sun.rmi.transport.StreamRemoteCall.releaseInputStream(StreamRemoteCall.java:157)
+	at sun.rmi.transport.StreamRemoteCall.done(StreamRemoteCall.java:313)
+	at sun.rmi.server.UnicastRef.done(UnicastRef.java:451)
+	at sun.rmi.registry.RegistryImpl_Stub.lookup(Unknown Source)
+	at main.java.peer.PeerImpl.queryhit(PeerImpl.java:144)
+	... 16 more
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.query(Unknown Source)
+	at main.java.peer.PeerImpl.queryNeighbors(PeerImpl.java:192)
+	at main.java.peer.PeerImpl.query(PeerImpl.java:123)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_038.bin 2440347114820511
+id 10.0.0.3
+LOGGING: begining query
+LOGGING: Receiving query: file_038.bin 2440347445715436
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.query(Unknown Source)
+	at main.java.peer.PeerImpl.queryNeighbors(PeerImpl.java:192)
+	at main.java.peer.PeerImpl.query(PeerImpl.java:123)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.obtain(Unknown Source)
+	at main.java.peer.PeerImpl.queryhit(PeerImpl.java:146)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 22 more
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_006.bin 2440357409272662
+id 10.0.0.3
+LOGGING: begining query
+Peer: 10.0.0.3 has an invalid version of file : file_027.bin and will not share with 10.0.0.2
+Mar 20, 2017 5:09:13 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:09:14 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 20, 2017 5:09:14 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=44668] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:714)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:950)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.invalidate(Unknown Source)
+	at main.java.peer.PeerImpl.invalidateNeighbors(PeerImpl.java:242)
+	at main.java.peer.PeerImpl.invalidate(PeerImpl.java:228)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_086.bin 2440359481938804
+id 10.0.0.3
+LOGGING: begining query
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.query(Unknown Source)
+	at main.java.peer.PeerImpl.queryNeighbors(PeerImpl.java:192)
+	at main.java.peer.PeerImpl.query(PeerImpl.java:123)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.query(Unknown Source)
+	at main.java.peer.PeerImpl.queryNeighbors(PeerImpl.java:192)
+	at main.java.peer.PeerImpl.query(PeerImpl.java:123)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+Client exception: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:304)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy0.query(Unknown Source)
+	at main.java.peer.PeerImpl.queryNeighbors(PeerImpl.java:192)
+	at main.java.peer.PeerImpl.query(PeerImpl.java:123)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)
+	... 23 more
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_025.bin 2440367598413284
+id 10.0.0.3
+LOGGING: begining query
+OpenJDK 64-Bit Server VM warning: Exception java.lang.OutOfMemoryError occurred dispatching signal SIGHUP to handler- the VM may need to be forcibly terminated

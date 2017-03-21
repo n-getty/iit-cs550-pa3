@@ -67,7 +67,7 @@ public class ClientDriver {
             if (query.equals("exit")) {
                 System.out.println("\nALERT: Process exiting in 10 sec... \n Goodbye.");
 		try {
-		    Thread.sleep(100000);
+		    Thread.sleep(1000000);
 		} catch(InterruptedException ex) {
 		    Thread.currentThread().interrupt();
 		}

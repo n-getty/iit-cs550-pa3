@@ -112,8 +112,11 @@ public class PeerImpl implements PeerInt {
 		            if(fileMap.get(fileName).getState().equals(ConsistencyState.VALID)) {
                         queryhit(messageID, fileName, thisIP, 1099);
                     }
-                    else if(fileMap.get(fileName).getState().equals(ConsistencyState.INVALID){
-                        System.out.println("Peer: " + thisIP + " has an invalid version of file : " + fileName + " and will not share with " + messageID.getKey());
+			    else if(fileMap.get(fileName).getState().equals(ConsistencyState.INVALID)){
+				System.out.println("Peer: " + thisIP + " has an invalid version of file : " + fileName + " and will not share with " + messageID.getKey());
+                        }
+			    else if(fileMap.get(fileName).getState().equals(ConsistencyState.EXPIRED)){
+				System.out.println("Peer: " + thisIP + " has an invalid version of file : " + fileName + " and will not share with " + messageID.getKey());
                         }
                 }
                 if(TTL > 0)

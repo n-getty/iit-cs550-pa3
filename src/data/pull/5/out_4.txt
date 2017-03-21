@@ -1,0 +1,1388 @@
+INFO: Initializing Peer..../tests/test4 10.0.0.4 star
+PeerImpl ready
+INFO: Client Process initialized...
+INFO: Indexing Files in: ././tests/test4/
+
+Input 'exit' to close the application at anytime
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_025.bin 2434525703628504
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_025.bin 2434527079500513
+LOGGING: Received File ./tests/test4/peer/file_025.bin
+LOGGING: Receiving query: file_025.bin 2434527573299161
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_080.bin 2434528942411891
+id 10.0.0.4
+LOGGING: begining query
+File: file_025.bin has expired
+LOGGING: Receiving query: file_080.bin 2434530851698092
+LOGGING: Received File ./tests/test4/peer/file_080.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_076.bin 2434531617111290
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_076.bin 2434533187680141
+LOGGING: Received File ./tests/test4/peer/file_076.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_031.bin 2434533716329969
+id 10.0.0.4
+LOGGING: begining query
+File: file_080.bin has expired
+LOGGING: Receiving query: file_031.bin 2434534364281085
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_001.bin 2434535185106782
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_001.bin 2434535774153760
+LOGGING: Received File ./tests/test4/peer/file_001.bin
+File: file_076.bin has expired
+LOGGING: Receiving query: file_001.bin 2434536493120311
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_062.bin 2434537343118778
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_062.bin 2434538783649886
+File: file_001.bin has expired
+LOGGING: Received File ./tests/test4/peer/file_062.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_089.bin 2434539692175084
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_089.bin 2434541656605947
+LOGGING: Received File ./tests/test4/peer/file_089.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_053.bin 2434542239712894
+id 10.0.0.4
+LOGGING: begining query
+File: file_062.bin has expired
+LOGGING: Receiving query: file_053.bin 2434543771317321
+LOGGING: Received File ./tests/test4/peer/file_053.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_081.bin 2434544820344503
+id 10.0.0.4
+LOGGING: begining query
+File: file_089.bin has expired
+Peer: 10.0.0.4 has an invalid version of file : file_080.bin and will not share with 10.0.0.2
+LOGGING: Receiving query: file_081.bin 2434546482087914
+LOGGING: Received File ./tests/test4/peer/file_081.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_040.bin 2434546848249518
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_001.bin and will not share with 10.0.0.3
+File: file_053.bin has expired
+LOGGING: Receiving query: file_040.bin 2434547446064536
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_045.bin 2434548334248223
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_045.bin 2434548580286613
+Peer: 10.0.0.4 has an invalid version of file : file_062.bin and will not share with 10.0.0.2
+LOGGING: Received File ./tests/test4/peer/file_045.bin
+LOGGING: Receiving query: file_045.bin 2434549311453102
+File: file_081.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_023.bin 2434550202021698
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_023.bin 2434550943641266
+LOGGING: Received File ./tests/test4/peer/file_023.bin
+LOGGING: Receiving query: file_023.bin 2434551302668306
+File: file_045.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_088.bin 2434553061868300
+id 10.0.0.4
+LOGGING: begining query
+File: file_023.bin has expired
+LOGGING: Receiving query: file_088.bin 2434554840721694
+LOGGING: Received File ./tests/test4/peer/file_088.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_010.bin 2434555210366690
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_010.bin 2434555642176152
+LOGGING: Received File ./tests/test4/peer/file_010.bin
+LOGGING: Receiving query: file_010.bin 2434556283375384
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_083.bin 2434557174303502
+id 10.0.0.4
+LOGGING: begining query
+File: file_088.bin has expired
+Peer: 10.0.0.4 has an invalid version of file : file_025.bin and will not share with 10.0.0.2
+File: file_010.bin has expired
+LOGGING: Receiving query: file_083.bin 2434558874694836
+LOGGING: Received File ./tests/test4/peer/file_083.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_035.bin 2434559239617137
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_035.bin 2434559835304254
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_007.bin 2434560699440114
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_007.bin 2434561285459156
+Peer: 10.0.0.4 has an invalid version of file : file_023.bin and will not share with 10.0.0.2
+LOGGING: Received File ./tests/test4/peer/file_007.bin
+LOGGING: Receiving query: file_007.bin 2434561833329683
+File: file_083.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_078.bin 2434562756954619
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_083.bin and will not share with 10.0.0.1
+Peer: 10.0.0.4 has an invalid version of file : file_053.bin and will not share with 10.0.0.5
+File: file_007.bin has expired
+LOGGING: Receiving query: file_078.bin 2434564425640198
+LOGGING: Received File ./tests/test4/peer/file_078.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_033.bin 2434565041972045
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_010.bin and will not share with 10.0.0.1
+LOGGING: Receiving query: file_033.bin 2434565617705930
+Peer: 10.0.0.4 has an invalid version of file : file_081.bin and will not share with 10.0.0.2
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_038.bin 2434566502633037
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_038.bin 2434567043528836
+File: file_078.bin has expired
+Peer: 10.0.0.4 has an invalid version of file : file_088.bin and will not share with 10.0.0.2
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_018.bin 2434567929025986
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_088.bin and will not share with 10.0.0.1
+LOGGING: Receiving query: file_018.bin 2434568565759411
+LOGGING: Received File ./tests/test4/peer/file_018.bin
+Peer: 10.0.0.4 has an invalid version of file : file_076.bin and will not share with 10.0.0.1
+LOGGING: Receiving query: file_018.bin 2434569354068321
+Peer: 10.0.0.4 has an invalid version of file : file_089.bin and will not share with 10.0.0.1
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_015.bin 2434570242119480
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_015.bin 2434570957100052
+LOGGING: Received File ./tests/test4/peer/file_015.bin
+Peer: 10.0.0.4 has an invalid version of file : file_062.bin and will not share with 10.0.0.1
+LOGGING: Receiving query: file_015.bin 2434571531427731
+File: file_018.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_082.bin 2434572294616670
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_001.bin and will not share with 10.0.0.1
+Peer: 10.0.0.4 has an invalid version of file : file_076.bin and will not share with 10.0.0.3
+LOGGING: Receiving query: file_082.bin 2434574021578991
+File: file_015.bin has expired
+LOGGING: Received File ./tests/test4/peer/file_082.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_075.bin 2434574568916065
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_025.bin and will not share with 10.0.0.1
+LOGGING: Receiving query: file_075.bin 2434576007068770
+LOGGING: Received File ./tests/test4/peer/file_075.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_042.bin 2434576701468430
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_042.bin 2434576906329837
+Peer: 10.0.0.4 has an invalid version of file : file_062.bin and will not share with 10.0.0.3
+Peer: 10.0.0.4 has an invalid version of file : file_007.bin and will not share with 10.0.0.2
+LOGGING: Received File ./tests/test4/peer/file_042.bin
+Peer: 10.0.0.4 has an invalid version of file : file_015.bin and will not share with 10.0.0.1
+File: file_082.bin has expired
+LOGGING: Receiving query: file_042.bin 2434577675782226
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_069.bin 2434578567792167
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_081.bin and will not share with 10.0.0.3
+File: file_075.bin has expired
+Peer: 10.0.0.4 has an invalid version of file : file_007.bin and will not share with 10.0.0.1
+LOGGING: Receiving query: file_069.bin 2434580014176718
+File: file_042.bin has expired
+LOGGING: Received File ./tests/test4/peer/file_069.bin
+Peer: 10.0.0.4 has an invalid version of file : file_042.bin and will not share with 10.0.0.2
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_060.bin 2434580911117747
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_083.bin and will not share with 10.0.0.3
+LOGGING: Receiving query: file_060.bin 2434582180871611
+Peer: 10.0.0.4 has an invalid version of file : file_045.bin and will not share with 10.0.0.1
+LOGGING: Received File ./tests/test4/peer/file_060.bin
+Peer: 10.0.0.4 has an invalid version of file : file_082.bin and will not share with 10.0.0.2
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_059.bin 2434583273728167
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_089.bin and will not share with 10.0.0.2
+File: file_069.bin has expired
+Peer: 10.0.0.4 has an invalid version of file : file_088.bin and will not share with 10.0.0.3
+LOGGING: Receiving query: file_059.bin 2434584463322821
+LOGGING: Received File ./tests/test4/peer/file_059.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_021.bin 2434585302182354
+id 10.0.0.4
+LOGGING: begining query
+File: file_060.bin has expired
+Peer: 10.0.0.4 has an invalid version of file : file_078.bin and will not share with 10.0.0.1
+LOGGING: Receiving query: file_021.bin 2434586291649783
+LOGGING: Received File ./tests/test4/peer/file_021.bin
+LOGGING: Receiving query: file_021.bin 2434586736431646
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_032.bin 2434587623770699
+id 10.0.0.4
+LOGGING: begining query
+File: file_059.bin has expired
+Peer: 10.0.0.4 has an invalid version of file : file_010.bin and will not share with 10.0.0.3
+LOGGING: Receiving query: file_032.bin 2434588299620114
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_044.bin 2434589108320693
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_044.bin 2434589395171898
+File: file_021.bin has expired
+LOGGING: Received File ./tests/test4/peer/file_044.bin
+LOGGING: Receiving query: file_044.bin 2434590208074486
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_029.bin 2434591704131337
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_089.bin and will not share with 10.0.0.3
+LOGGING: Receiving query: file_029.bin 2434592486212207
+File: file_044.bin has expired
+LOGGING: Received File ./tests/test4/peer/file_029.bin
+LOGGING: Receiving query: file_029.bin 2434592885220448
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_022.bin 2434593772460837
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_022.bin 2434594591504306
+LOGGING: Received File ./tests/test4/peer/file_022.bin
+LOGGING: Receiving query: file_022.bin 2434594986272768
+File: file_029.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_072.bin 2434595871614555
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_072.bin 2434597431306292
+LOGGING: Received File ./tests/test4/peer/file_072.bin
+File: file_022.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_054.bin 2434597995642002
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_054.bin 2434599266656071
+LOGGING: Received File ./tests/test4/peer/file_054.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_070.bin 2434600062041525
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_045.bin and will not share with 10.0.0.3
+Peer: 10.0.0.4 has an invalid version of file : file_088.bin and will not share with 10.0.0.5
+File: file_072.bin has expired
+LOGGING: Receiving query: file_070.bin 2434601331947967
+LOGGING: Received File ./tests/test4/peer/file_070.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_065.bin 2434601979318789
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_053.bin and will not share with 10.0.0.3
+File: file_054.bin has expired
+LOGGING: Receiving query: file_065.bin 2434603330508180
+LOGGING: Received File ./tests/test4/peer/file_065.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_090.bin 2434604006788787
+id 10.0.0.4
+LOGGING: begining query
+File: file_070.bin has expired
+LOGGING: Receiving query: file_090.bin 2434605774319726
+LOGGING: Received File ./tests/test4/peer/file_090.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_052.bin 2434606235317953
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_054.bin and will not share with 10.0.0.3
+File: file_065.bin has expired
+LOGGING: Receiving query: file_052.bin 2434607516837130
+LOGGING: Received File ./tests/test4/peer/file_052.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_079.bin 2434608352561770
+id 10.0.0.4
+LOGGING: begining query
+File: file_090.bin has expired
+LOGGING: Receiving query: file_079.bin 2434609916565062
+LOGGING: Received File ./tests/test4/peer/file_079.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_039.bin 2434610453327971
+id 10.0.0.4
+LOGGING: begining query
+File: file_052.bin has expired
+LOGGING: Receiving query: file_039.bin 2434611089115069
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_017.bin 2434611772760427
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_080.bin and will not share with 10.0.0.3
+Peer: 10.0.0.4 has an invalid version of file : file_080.bin and will not share with 10.0.0.5
+LOGGING: Receiving query: file_017.bin 2434612449754922
+LOGGING: Received File ./tests/test4/peer/file_017.bin
+LOGGING: Receiving query: file_017.bin 2434613112997961
+File: file_079.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_003.bin 2434614013272449
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_003.bin 2434614514839317
+LOGGING: Received File ./tests/test4/peer/file_003.bin
+LOGGING: Receiving query: file_003.bin 2434615262200793
+File: file_017.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_011.bin 2434616147315884
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_011.bin 2434616865038746
+LOGGING: Received File ./tests/test4/peer/file_011.bin
+LOGGING: Receiving query: file_011.bin 2434617406451944
+File: file_003.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_048.bin 2434618293196007
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_048.bin 2434618538959806
+LOGGING: Received File ./tests/test4/peer/file_048.bin
+LOGGING: Receiving query: file_048.bin 2434619342099927
+File: file_011.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_073.bin 2434620227141910
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_069.bin and will not share with 10.0.0.3
+File: file_048.bin has expired
+LOGGING: Receiving query: file_073.bin 2434621905091875
+LOGGING: Received File ./tests/test4/peer/file_073.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_027.bin 2434622424911741
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_027.bin 2434623244419653
+LOGGING: Received File ./tests/test4/peer/file_027.bin
+LOGGING: Receiving query: file_027.bin 2434623603386783
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_068.bin 2434624489127763
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_042.bin and will not share with 10.0.0.5
+File: file_073.bin has expired
+LOGGING: Receiving query: file_068.bin 2434625922524113
+LOGGING: Received File ./tests/test4/peer/file_068.bin
+File: file_027.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_028.bin 2434626610415126
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_028.bin 2434627399410060
+LOGGING: Received File ./tests/test4/peer/file_028.bin
+LOGGING: Receiving query: file_028.bin 2434627799000574
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_055.bin 2434628687421914
+id 10.0.0.4
+LOGGING: begining query
+File: file_068.bin has expired
+LOGGING: Receiving query: file_055.bin 2434630009169226
+LOGGING: Received File ./tests/test4/peer/file_055.bin
+File: file_028.bin has expired
+Peer: 10.0.0.4 has an invalid version of file : file_068.bin and will not share with 10.0.0.3
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_058.bin 2434630935934507
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_058.bin 2434632232736063
+LOGGING: Received File ./tests/test4/peer/file_058.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_008.bin 2434633076742471
+id 10.0.0.4
+LOGGING: begining query
+File: file_055.bin has expired
+LOGGING: Receiving query: file_008.bin 2434633579911585
+LOGGING: Received File ./tests/test4/peer/file_008.bin
+LOGGING: Receiving query: file_008.bin 2434634172312227
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_024.bin 2434635077446483
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_044.bin and will not share with 10.0.0.3
+File: file_058.bin has expired
+LOGGING: Receiving query: file_024.bin 2434635897374624
+LOGGING: Received File ./tests/test4/peer/file_024.bin
+LOGGING: Receiving query: file_024.bin 2434636338092082
+File: file_008.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_085.bin 2434637610802216
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_029.bin and will not share with 10.0.0.3
+Peer: 10.0.0.4 has an invalid version of file : file_078.bin and will not share with 10.0.0.3
+File: file_024.bin has expired
+LOGGING: Receiving query: file_085.bin 2434639461414031
+LOGGING: Received File ./tests/test4/peer/file_085.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_014.bin 2434639915664650
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_015.bin and will not share with 10.0.0.5
+LOGGING: Receiving query: file_014.bin 2434640632898003
+LOGGING: Received File ./tests/test4/peer/file_014.bin
+LOGGING: Receiving query: file_014.bin 2434641207051864
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_030.bin 2434642091828475
+id 10.0.0.4
+LOGGING: begining query
+File: file_085.bin has expired
+LOGGING: Receiving query: file_030.bin 2434642903245229
+LOGGING: Received File ./tests/test4/peer/file_030.bin
+LOGGING: Receiving query: file_030.bin 2434643305387925
+File: file_014.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_056.bin 2434644189375206
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_056.bin 2434645501633628
+LOGGING: Received File ./tests/test4/peer/file_056.bin
+File: file_030.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_084.bin 2434646296206186
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_084.bin 2434648102992844
+LOGGING: Received File ./tests/test4/peer/file_084.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_036.bin 2434648471452541
+id 10.0.0.4
+LOGGING: begining query
+File: file_056.bin has expired
+LOGGING: Receiving query: file_036.bin 2434649148814237
+Peer: 10.0.0.4 has an invalid version of file : file_052.bin and will not share with 10.0.0.3
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_077.bin 2434650037191986
+id 10.0.0.4
+LOGGING: begining query
+File: file_084.bin has expired
+Peer: 10.0.0.4 has an invalid version of file : file_015.bin and will not share with 10.0.0.3
+LOGGING: Receiving query: file_077.bin 2434651677671046
+LOGGING: Received File ./tests/test4/peer/file_077.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_006.bin 2434652292899144
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_006.bin 2434652796849368
+Peer: 10.0.0.4 has an invalid version of file : file_042.bin and will not share with 10.0.0.3
+LOGGING: Received File ./tests/test4/peer/file_006.bin
+LOGGING: Receiving query: file_006.bin 2434653386440365
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_051.bin 2434654269538075
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_051.bin 2434654555860244
+LOGGING: Received File ./tests/test4/peer/file_051.bin
+File: file_077.bin has expired
+LOGGING: Receiving query: file_051.bin 2434655320506158
+Peer: 10.0.0.4 has an invalid version of file : file_022.bin and will not share with 10.0.0.5
+LOGGING: Receiving query: file_051.bin 2434655872827348
+File: file_006.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_043.bin 2434656450712608
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_055.bin and will not share with 10.0.0.3
+LOGGING: Receiving query: file_043.bin 2434656696094390
+LOGGING: Received File ./tests/test4/peer/file_043.bin
+LOGGING: Receiving query: file_043.bin 2434657539344820
+File: file_051.bin has expired
+Peer: 10.0.0.4 has an invalid version of file : file_090.bin and will not share with 10.0.0.5
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_009.bin 2434658427117585
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_058.bin and will not share with 10.0.0.3
+LOGGING: Receiving query: file_009.bin 2434658929557481
+LOGGING: Received File ./tests/test4/peer/file_009.bin
+LOGGING: Receiving query: file_009.bin 2434659478353301
+File: file_043.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_012.bin 2434660366827859
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_012.bin 2434661083723398
+LOGGING: Received File ./tests/test4/peer/file_012.bin
+LOGGING: Receiving query: file_012.bin 2434661714939955
+File: file_009.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_019.bin 2434662558702821
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_019.bin 2434663275108910
+LOGGING: Received File ./tests/test4/peer/file_019.bin
+LOGGING: Receiving query: file_019.bin 2434663851946169
+File: file_012.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_002.bin 2434664736325696
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_002.bin 2434665236805438
+Peer: 10.0.0.4 has an invalid version of file : file_048.bin and will not share with 10.0.0.3
+LOGGING: Received File ./tests/test4/peer/file_002.bin
+LOGGING: Receiving query: file_002.bin 2434665819783789
+File: file_019.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_047.bin 2434666704529480
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_047.bin 2434666990395647
+LOGGING: Received File ./tests/test4/peer/file_047.bin
+LOGGING: Receiving query: file_047.bin 2434667793785322
+File: file_002.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_013.bin 2434668638746758
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_013.bin 2434668884763356
+LOGGING: Received File ./tests/test4/peer/file_013.bin
+Peer: 10.0.0.4 has an invalid version of file : file_060.bin and will not share with 10.0.0.3
+LOGGING: Receiving query: file_013.bin 2434669642819870
+LOGGING: Receiving query: file_013.bin 2434670011588725
+File: file_047.bin has expired
+Peer: 10.0.0.4 has an invalid version of file : file_048.bin and will not share with 10.0.0.5
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_049.bin 2434670854679449
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_049.bin 2434671141362649
+LOGGING: Received File ./tests/test4/peer/file_049.bin
+LOGGING: Receiving query: file_049.bin 2434671946619796
+File: file_013.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_041.bin 2434672833825031
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_007.bin and will not share with 10.0.0.3
+LOGGING: Receiving query: file_041.bin 2434673078982219
+Peer: 10.0.0.4 has an invalid version of file : file_076.bin and will not share with 10.0.0.5
+LOGGING: Received File ./tests/test4/peer/file_041.bin
+LOGGING: Receiving query: file_041.bin 2434673912334148
+File: file_049.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_026.bin 2434674851021516
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_026.bin 2434675631263734
+LOGGING: Received File ./tests/test4/peer/file_026.bin
+LOGGING: Receiving query: file_026.bin 2434676028224695
+File: file_041.bin has expired
+Peer: 10.0.0.4 has an invalid version of file : file_059.bin and will not share with 10.0.0.3
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_050.bin 2434676912761418
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_007.bin and will not share with 10.0.0.5
+LOGGING: Receiving query: file_050.bin 2434677116066158
+LOGGING: Received File ./tests/test4/peer/file_050.bin
+LOGGING: Receiving query: file_050.bin 2434677881287622
+Peer: 10.0.0.4 has an invalid version of file : file_072.bin and will not share with 10.0.0.3
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_004.bin 2434678724913731
+id 10.0.0.4
+LOGGING: begining query
+File: file_026.bin has expired
+LOGGING: Receiving query: file_004.bin 2434679226914087
+LOGGING: Received File ./tests/test4/peer/file_004.bin
+LOGGING: Receiving query: file_004.bin 2434679813919928
+Peer: 10.0.0.4 has an invalid version of file : file_023.bin and will not share with 10.0.0.5
+File: file_050.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_034.bin 2434680699888674
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_018.bin and will not share with 10.0.0.3
+LOGGING: Receiving query: file_034.bin 2434681379806994
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_005.bin 2434682181951904
+id 10.0.0.4
+LOGGING: begining query
+File: file_004.bin has expired
+LOGGING: Receiving query: file_005.bin 2434682642792883
+LOGGING: Received File ./tests/test4/peer/file_005.bin
+LOGGING: Receiving query: file_005.bin 2434683227680714
+Peer: 10.0.0.4 has an invalid version of file : file_029.bin and will not share with 10.0.0.5
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_063.bin 2434684450254139
+id 10.0.0.4
+LOGGING: begining query
+File: file_005.bin has expired
+LOGGING: Receiving query: file_063.bin 2434686148606451
+Peer: 10.0.0.4 has an invalid version of file : file_014.bin and will not share with 10.0.0.3
+LOGGING: Received File ./tests/test4/peer/file_063.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_074.bin 2434686913341992
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_003.bin and will not share with 10.0.0.3
+LOGGING: Receiving query: file_074.bin 2434688521442175
+LOGGING: Received File ./tests/test4/peer/file_074.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_067.bin 2434689051576752
+id 10.0.0.4
+LOGGING: begining query
+File: file_063.bin has expired
+Peer: 10.0.0.4 has an invalid version of file : file_002.bin and will not share with 10.0.0.5
+Peer: 10.0.0.4 has an invalid version of file : file_006.bin and will not share with 10.0.0.3
+LOGGING: Receiving query: file_067.bin 2434690504607304
+LOGGING: Received File ./tests/test4/peer/file_067.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_086.bin 2434691183224608
+id 10.0.0.4
+LOGGING: begining query
+File: file_074.bin has expired
+Peer: 10.0.0.4 has an invalid version of file : file_005.bin and will not share with 10.0.0.3
+LOGGING: Receiving query: file_086.bin 2434693082338313
+Peer: 10.0.0.4 has an invalid version of file : file_011.bin and will not share with 10.0.0.5
+LOGGING: Received File ./tests/test4/peer/file_086.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_061.bin 2434693536869420
+id 10.0.0.4
+LOGGING: begining query
+File: file_067.bin has expired
+Peer: 10.0.0.4 has an invalid version of file : file_011.bin and will not share with 10.0.0.3
+LOGGING: Receiving query: file_061.bin 2434694933085747
+LOGGING: Received File ./tests/test4/peer/file_061.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_037.bin 2434695608608117
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_001.bin and will not share with 10.0.0.5
+Peer: 10.0.0.4 has an invalid version of file : file_002.bin and will not share with 10.0.0.3
+LOGGING: Receiving query: file_037.bin 2434696213525098
+File: file_086.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_064.bin 2434697100222084
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_023.bin and will not share with 10.0.0.3
+File: file_061.bin has expired
+LOGGING: Receiving query: file_064.bin 2434698577319359
+Peer: 10.0.0.4 has an invalid version of file : file_083.bin and will not share with 10.0.0.5
+LOGGING: Received File ./tests/test4/peer/file_064.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_057.bin 2434699253736339
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_013.bin and will not share with 10.0.0.3
+LOGGING: Receiving query: file_057.bin 2434700447405293
+LOGGING: Received File ./tests/test4/peer/file_057.bin
+Peer: 10.0.0.4 has an invalid version of file : file_025.bin and will not share with 10.0.0.3
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_087.bin 2434701371665478
+id 10.0.0.4
+LOGGING: begining query
+File: file_064.bin has expired
+Peer: 10.0.0.4 has an invalid version of file : file_021.bin and will not share with 10.0.0.3
+LOGGING: Receiving query: file_087.bin 2434703139060084
+LOGGING: Received File ./tests/test4/peer/file_087.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_016.bin 2434703504352239
+id 10.0.0.4
+LOGGING: begining query
+File: file_057.bin has expired
+LOGGING: Receiving query: file_016.bin 2434704179661382
+LOGGING: Received File ./tests/test4/peer/file_016.bin
+LOGGING: Receiving query: file_016.bin 2434704847066213
+Peer: 10.0.0.4 has an invalid version of file : file_028.bin and will not share with 10.0.0.5
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_066.bin 2434705733331406
+id 10.0.0.4
+LOGGING: begining query
+File: file_087.bin has expired
+LOGGING: Receiving query: file_066.bin 2434707206336731
+LOGGING: Received File ./tests/test4/peer/file_066.bin
+File: file_016.bin has expired
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_046.bin 2434707883160681
+id 10.0.0.4
+LOGGING: begining query
+Peer: 10.0.0.4 has an invalid version of file : file_056.bin and will not share with 10.0.0.5
+LOGGING: Receiving query: file_046.bin 2434708128887073
+LOGGING: Received File ./tests/test4/peer/file_046.bin
+LOGGING: Receiving query: file_046.bin 2434708928734359
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_071.bin 2434709776335889
+id 10.0.0.4
+LOGGING: begining query
+File: file_066.bin has expired
+File: file_046.bin has expired
+LOGGING: Receiving query: file_071.bin 2434711510545016
+Peer: 10.0.0.4 has an invalid version of file : file_018.bin and will not share with 10.0.0.5
+LOGGING: Received File ./tests/test4/peer/file_071.bin
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+LOGGING: Requesting file: file_020.bin 2434712121971137
+id 10.0.0.4
+LOGGING: begining query
+LOGGING: Receiving query: file_020.bin 2434712840135306
+LOGGING: Received File ./tests/test4/peer/file_020.bin
+LOGGING: Receiving query: file_020.bin 2434713417783307
+Peer: 10.0.0.4 has an invalid version of file : file_063.bin and will not share with 10.0.0.5
+LOGGING: query sent
+LOGGING: Requested file
+
+Input name of file you want to obtain:
+
+
+Append -r to refresh this file
+
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1540)
+	at main.java.peer.ClientDriver.main(ClientDriver.java:66)
+File: file_071.bin has expired
+File: file_020.bin has expired
+Peer: 10.0.0.4 has an invalid version of file : file_064.bin and will not share with 10.0.0.5
+Peer: 10.0.0.4 has an invalid version of file : file_087.bin and will not share with 10.0.0.5
+Peer: 10.0.0.4 has an invalid version of file : file_025.bin and will not share with 10.0.0.5
+Peer: 10.0.0.4 has an invalid version of file : file_070.bin and will not share with 10.0.0.5
+Peer: 10.0.0.4 has an invalid version of file : file_016.bin and will not share with 10.0.0.5
+Peer: 10.0.0.4 has an invalid version of file : file_019.bin and will not share with 10.0.0.5
+Peer: 10.0.0.4 has an invalid version of file : file_024.bin and will not share with 10.0.0.5
+Peer: 10.0.0.4 has an invalid version of file : file_081.bin and will not share with 10.0.0.5
+Peer: 10.0.0.4 has an invalid version of file : file_052.bin and will not share with 10.0.0.5
+Peer: 10.0.0.4 has an invalid version of file : file_044.bin and will not share with 10.0.0.5
