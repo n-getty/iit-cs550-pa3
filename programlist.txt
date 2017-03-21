@@ -8,6 +8,8 @@
   PeerInt.java
   PeerImpl.java
   WatchDir.java
+  ConsitencyState.java
+  ConsistentFile.java
 
 #################
 # Documentation #
@@ -16,7 +18,7 @@
 ./
   programlist.txt
 	(This File)
-./src/docs/
+./docs/
   manual/
     index.html
 	Main file to read the docs. Open with browser
@@ -51,18 +53,11 @@
 	Python script to run the evaluation on the peer -> peer file sharing
   parse.pl
 	Generates the response times from the log file
-  plot.py
+  bar_plot.py
 	Generates cdf plots from the raw response times
   setupTestFiles.sh
 	Generates the test files, input files, and output files for the experiment.
 	Output files and input files are located in ./topologies/topo/
-		
+
 	Usage: ./setupTestFiles.sh arg1 arg2 arg3 arg4
-	arg1 - number of hosts
-	arg2 - overlap factor (ratio of number of copies to total hosts)
-	       how many locations a file is replicated in
-	arg3 - number of test files to generate, each file is 1kb*filenumber
-	arg4 - number of consecutive downloaders
-
-
-
+	       arg1 - number of consecutive downloaders
